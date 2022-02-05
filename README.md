@@ -3,6 +3,9 @@
 
 In the project directory, you can run:
 
+### `npm install` or `yarn`
+This will install the required modules to run the project
+
 ### `npm start`
 
 Runs the app in the development mode.\
