@@ -81,7 +81,6 @@ const App = () => {
               {...field}
               label="Iteration (E)"
               fullWidth
-              helperText={"Hello"}
               type="number"
             />
           )}
