@@ -41,8 +41,8 @@ export const startIteration = (population_size, iteration) => {
     let global_best_gbest = 0;
     let global_best_index = -1;
     let range = 2;
-    let c1 = 2;
-    let c2 = 2;
+    let c1 = 0.7;
+    let c2 = 0.8;
     let w = 0.7;
     let result = [];
     for (var i = 0; i < population_size; i++) {

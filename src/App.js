@@ -55,8 +55,8 @@ const App = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <h1>Particle Swarm Optimization</h1>
         <h3>
-          Objective function: Maximize: f(x) = 1+ 2*x - x^2; c1 = c2 = 2; w =
-          0.7
+          Objective function: Maximize: f(x) = 1+ 2*x - x^2; c1 = 0.7; c2 = 0.8;
+          w = 0.7
         </h3>
         <h4>Initializing the parameters:</h4>
         <Controller
